@@ -4,7 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-python-dotenv = "*"
+psycopg2-binary = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
 
 [requires]
 python_version = "3.7"
